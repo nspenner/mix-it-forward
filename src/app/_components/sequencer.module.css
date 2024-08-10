@@ -1,0 +1,26 @@
+.sequence-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 8px;
+}
+
+.sequence-list-item {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(0, 113, 113);
+    border-radius: 20px;
+}
+
+.instrument-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 8px;
+}
+
+.instrument-step {
+    width: 20px;
+    height: 20px;
+    border: 1px solid orange;
+}
